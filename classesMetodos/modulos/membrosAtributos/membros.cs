@@ -7,7 +7,7 @@ namespace ClassesMetodos
             Pessoa pessoa = new Pessoa();
             pessoa.Nome = "Andre";
             pessoa.Idade = 24;
-            Console.WriteLine($"Ola o nome é {pessoa.Nome} e a idade é {pessoa.Idade}");
+            Console.WriteLine($"Ola o nome é {pessoa.Nome} e a idade é {pessoa.Idade} anos");
 
            var profissao = new Pessoa();
            profissao.Nome = "Programador";
