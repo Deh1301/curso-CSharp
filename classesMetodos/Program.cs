@@ -10,10 +10,11 @@ public class Classes{
         var entradaConfirmar = entrada.ToLower() == "sim" ? "Bem Vindo seu exercicio sera executado" : "Voce não Acesso, encerrando";
         Console.WriteLine($"{entradaConfirmar}\n");
 
-        ClassesXobjeto.classesXobjeto();
-        //exercicio dados pessoa
+        // ClassesXobjeto.classeXobjeto();
 
+        //exercicio dados pessoa
         Membros.MembrosClasse();
+        Membros.ProfissaoDados();
 
     }
        

@@ -2,14 +2,20 @@
 
 namespace ClassesMetodos
 {
-    public class Pessoa
-    {
-      public string Nome;
-      public int Idade;
+  public class Pessoa
+  {
+    public string Nome;
+    public int Idade;
 
-      
 
-    }
-    
+
+  }
+
+  public class Profissao
+  {
+    public string NomeProfissao;
+    public int Salario;
+  }
+
 
 }
