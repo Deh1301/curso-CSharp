@@ -1,6 +1,4 @@
-﻿using System;
-using System.Globalization;
-
+﻿
 namespace ClassesMetodos;
 
 public class Classes
@@ -20,7 +18,15 @@ public class Classes
             // Membros.ProfissaoDados();
 
             //exercicio dados do carro
-            Construtores.ExercicioCarro();
+            // Construtores.ExercicioCarro();
+
+
+            //Metodos de Retornar
+            // MetodoRetorno.Executar();
+            // Instanciar.Executar();
+            // MemborEstatico.Executar();
+            AtributosEstaticos.Executar();
+
 
 
         } else{

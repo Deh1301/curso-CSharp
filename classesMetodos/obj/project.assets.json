@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Calix\\.nuget\\packages\\": {}
+    "C:\\Users\\Andre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Calix\\OneDrive\\Documentos\\cursoC#\\curso-CSharp\\classesMetodos\\classes e metodos.csproj",
+      "projectUniqueName": "C:\\Users\\Andre\\OneDrive\\Documentos\\C# curso\\curso-CSharp\\classesMetodos\\classes e metodos.csproj",
       "projectName": "classes e metodos",
-      "projectPath": "C:\\Users\\Calix\\OneDrive\\Documentos\\cursoC#\\curso-CSharp\\classesMetodos\\classes e metodos.csproj",
-      "packagesPath": "C:\\Users\\Calix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Calix\\OneDrive\\Documentos\\cursoC#\\curso-CSharp\\classesMetodos\\obj\\",
+      "projectPath": "C:\\Users\\Andre\\OneDrive\\Documentos\\C# curso\\curso-CSharp\\classesMetodos\\classes e metodos.csproj",
+      "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andre\\OneDrive\\Documentos\\C# curso\\curso-CSharp\\classesMetodos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Calix\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
