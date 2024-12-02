@@ -2,7 +2,7 @@
 
     public class CalculoEstatico{
         public static int Somar(int a, int b){
-            return a + b;
+            return a + b;  
         }
 
         public int Multi(int a, int b){

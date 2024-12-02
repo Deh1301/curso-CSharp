@@ -25,7 +25,11 @@ public class Classes
             // MetodoRetorno.Executar();
             // Instanciar.Executar();
             // MemborEstatico.Executar();
-            AtributosEstaticos.Executar();
+            // AtributosEstaticos.Executar();
+
+            //DESAFIO
+
+            Desafio.Executar();
 
 
 
