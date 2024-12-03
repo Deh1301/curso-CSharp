@@ -29,7 +29,11 @@ public class Classes
 
             //DESAFIO
 
-            Desafio.Executar();
+            // Desafio.Executar();
+
+            //Parametros
+
+            Params.Executar();
 
 
 
