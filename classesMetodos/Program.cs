@@ -33,7 +33,8 @@ public class Classes
 
             //Parametros
 
-            Params.Executar();
+            // Params.Executar();
+            ParametroNomeado.Executar();
 
 
 
