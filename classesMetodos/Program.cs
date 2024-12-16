@@ -34,7 +34,11 @@ public class Classes
             //Parametros
 
             // Params.Executar();
-            ParametroNomeado.Executar();
+            // ParametroNomeado.Executar();
+
+            //GET SET
+
+            GetSet.Executar();
 
 
 
