@@ -38,8 +38,11 @@ public class Classes
 
             //GET SET
 
-            GetSet.Executar();
+            // GetSet.Executar();
+            
+            //Propriedades
 
+            Props.Executar();
 
 
         } else{

@@ -1,0 +1,5 @@
+C:\Users\Andre\OneDrive\Documentos\cursoC#\curso-CSharp\arrays\obj\Debug\array\net8.0\array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\OneDrive\Documentos\cursoC#\curso-CSharp\arrays\obj\Debug\array\net8.0\array.csproj.CoreCompileInputs.cache
+C:\Users\Andre\OneDrive\Documentos\cursoC#\curso-CSharp\arrays\obj\Debug\array\net8.0\array.sourcelink.json
+C:\Users\Andre\OneDrive\Documentos\cursoC#\curso-CSharp\arrays\obj\Debug\array\net8.0\array.AssemblyInfoInputs.cache
+C:\Users\Andre\OneDrive\Documentos\cursoC#\curso-CSharp\arrays\obj\Debug\array\net8.0\array.AssemblyInfo.cs
