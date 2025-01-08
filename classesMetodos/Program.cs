@@ -42,7 +42,9 @@ public class Classes
             
             //Propriedades
 
-            Props.Executar();
+            // Props.Executar();
+            // Readonly.Executar();
+            Enum.Executar();
 
 
         } else{
