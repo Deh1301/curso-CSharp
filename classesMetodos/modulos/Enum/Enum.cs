@@ -14,30 +14,32 @@
 
     }
 
-    class Enum
-    {
-        public static void Executar()
-        {
-            int id = (int)Genero.Acao;
-            Console.WriteLine(id);
-            var filme = new Filme();
-            filme.Titulo= "Vingadores";
-            filme.GeneroFilme = Genero.Acao;
+    // class Enum
+    // {
+    //     public static void Executar()
+    //     {
+    //         int id = (int)Genero.Acao;
+    //         Console.WriteLine(id);
+    //         var filme = new Filme();
+    //         filme.Titulo= "Vingadores";
+    //         filme.GeneroFilme = Genero.Acao;
 
-            Console.WriteLine("{0} é {1}!", filme.Titulo, 
-            filme.GeneroFilme);
+    //         Console.WriteLine("{0} é {1}!", filme.Titulo, 
+    //         filme.GeneroFilme);
 
-            id = (int)Genero.Aventura;
-            Console.WriteLine(id);
-            filme.Titulo = "A era do Gelo";
-            filme.GeneroFilme = Genero.Aventura;
+    //         id = (int)Genero.Aventura;
+    //         Console.WriteLine(id);
+    //         filme.Titulo = "A era do Gelo";
+    //         filme.GeneroFilme = Genero.Aventura;
 
-            Console.WriteLine($"{filme.Titulo} é um filme de {filme.GeneroFilme}!"
-            );
+    //         Console.WriteLine($"{filme.Titulo} é um filme de {filme.GeneroFilme}!"
+    //         );
 
-            int nomes = (int)GeneroPessoa.Criança;
-            Console.WriteLine(nomes);
+    //         int nomes = (int)GeneroPessoa.Criança;
+    //         Console.WriteLine(nomes);
 
-        }
-    }
+    //     }
+
+    // }
+    
 }
