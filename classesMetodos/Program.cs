@@ -71,7 +71,8 @@ public class Classes
             // Props.Executar();
             // Readonly.Executar();
             // Enum.Executar();
-            Enumerado.Executar();
+            // Enumerado.Executar();
+            Struct.Executar();
             break;
 
             default:
