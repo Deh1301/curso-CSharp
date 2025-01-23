@@ -72,7 +72,8 @@ public class Classes
             // Readonly.Executar();
             // Enum.Executar();
             // Enumerado.Executar();
-            Struct.Executar();
+            // Struct.Executar();
+            Saida.Executar();
             break;
 
             default:
