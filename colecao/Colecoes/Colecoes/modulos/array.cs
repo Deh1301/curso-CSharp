@@ -23,6 +23,16 @@ namespace Colecao.Modulos
             {
                 Console.WriteLine(letra);
             }
+
+            //tipo de array
+
+            //ARRAY SORT COLOCA EM ORDEM CRESCENTE
+
+            int[] number = {5,4,3,2,1};
+            Array.Sort(number);
+            foreach(int numbers in number){
+                System.Console.WriteLine(numbers);
+            }
         }
     }
 }

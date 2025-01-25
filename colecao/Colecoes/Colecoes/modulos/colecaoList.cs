@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Class1
+namespace Colecao.Modulos
 {
-	public Class1()
-	{
-	}
+    class ColecaoList
+    {
+
+    }
 }
+
+

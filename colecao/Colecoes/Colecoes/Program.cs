@@ -18,8 +18,9 @@ namespace Colecao
             switch (opcao)
             {
                 case "1":
-                    //ArrayModule.Executar();
-                    Exercicio.Executar();
+                    ArrayModule.Executar();
+                    // Exercicio.Executar();
+                    // ExercicioArray.Executar();
                     await Task.Delay(2000);
                     break;
             }
