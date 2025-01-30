@@ -33,6 +33,66 @@ namespace Colecao.Modulos
             foreach(int numbers in number){
                 System.Console.WriteLine(numbers);
             }
+
+            int[,] matriz = {
+                {1,2,3},
+                {5,6,7},
+                {8,9,10}
+            };
+            System.Console.WriteLine($"O numero na matriz é: {matriz[1,2]}");
+
+            int[] index = {10,30,20,40};
+            int encontrado = Array.IndexOf(index, 30);
+            System.Console.WriteLine($"O indice de 30 é {encontrado}");
+
+            int[] numeroInteiro = {1,2,3,4,5,6};
+            int soma = 0;
+            foreach(int numeros in numeroInteiro){
+               soma +=numeros;
+               System.Console.WriteLine(soma);
+            }
+
+            int[] maior = {1,23,44,55};
+            int maiorNumero = maior[0];
+            foreach(int maiores in maior){
+                if(maiores > maiorNumero){
+                    maiorNumero = maiores;
+                }
+            }
+            System.Console.WriteLine($"o maior valor é : {maiorNumero}");
+
+            int[] menor = {1,2,3,4,5,6,7,8};
+            int menorNumero = menor[0];
+            foreach(int menores in menor){
+                if(menores < menorNumero){
+                    menorNumero = menores;
+                }
+
+            }
+            System.Console.WriteLine($"o menor numero é : {menorNumero}");
+
+            int[] numInvert = {1,2,3,4,5,6,7};
+            Array.Reverse(numInvert);
+            foreach(int revers in numInvert){
+                System.Console.WriteLine(revers);
+            }
+
+            int[,] tabela = {
+                {1,2,3},
+                {4,5,6}
+            };
+            foreach(int table in tabela){
+                Console.WriteLine(table + "\t");
+            }
+
+            int[] pares = {1,2,3,4,5,6,7,8};
+            foreach(int par in pares){
+                if(par % 2 == 0){
+                    System.Console.WriteLine(par);
+                }
+            }
+
+
         }
     }
 }

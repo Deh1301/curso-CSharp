@@ -12,8 +12,9 @@ namespace Colecao
 
             Console.WriteLine("Escolha seu exercicio:");
             Console.WriteLine("1- Arrays;");
+            Console.WriteLine("2- Coleções de Listas;");
             Console.WriteLine("\n");
-            Console.WriteLine("O exercicio é :");
+            Console.Write("O exercicio é o numero : ");
             string opcao = Console.ReadLine();
             switch (opcao)
             {
@@ -21,8 +22,13 @@ namespace Colecao
                     ArrayModule.Executar();
                     // Exercicio.Executar();
                     // ExercicioArray.Executar();
-                    await Task.Delay(2000);
+                    await Task.Delay(10000);
                     break;
+                case "2":
+                    ColecaoList.Executar();
+                    await Task.Delay(10000);
+                    break;
+
             }
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Colecoes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73d9923e42852e6952ce339cf1d9664291589970")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73139c301468e620090ad6c6560717e20cd9ca55")]
 [assembly: System.Reflection.AssemblyProductAttribute("Colecoes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Colecoes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
