@@ -39,15 +39,32 @@ namespace Colecao.Modulos
             }
 
             List<int> numeros = new List<int>();
-           
-            numeros.Add(Console.ReadLine());
-            
+            System.Console.WriteLine("Adicione 5 numeros: ");
+            numeros.Add(int.Parse(Console.ReadLine()));
+            numeros.Add(int.Parse(Console.ReadLine()));
 
-            Console.WriteLine("os numeros sao: ");
+            numeros.Add(int.Parse(Console.ReadLine()));
 
-            foreach(int numero in numeros)
+            numeros.Add(int.Parse(Console.ReadLine()));
+
+            numeros.Add(int.Parse(Console.ReadLine()));
+            System.Console.WriteLine("\n os numeros adicionados sao : ");
+
+
+
+            foreach (int numero in numeros)
             {
+
                 Console.WriteLine(numero);
+            }
+
+            System.Console.WriteLine("Qual vc deseja remover: ");
+            numeros.Remove(int.Parse(Console.ReadLine()));
+            System.Console.WriteLine("Agora os numeros sao");
+            foreach (int numero in numeros)
+            {
+
+                System.Console.WriteLine(numero);
             }
 
 
