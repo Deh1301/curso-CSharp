@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Colecao.Modulos;
 using Colecoes.modulos;
 
+
 namespace Colecao
 {
     class Program
@@ -17,6 +18,7 @@ namespace Colecao
             Console.WriteLine("3- Matriz");
             Console.WriteLine("\n");
             Console.Write("O exercicio é o numero : ");
+            
             string opcao = Console.ReadLine();
             switch (opcao)
             {
@@ -24,16 +26,25 @@ namespace Colecao
                     // ArrayModule.Executar();
                     // Exercicio.Executar();
                     // ExercicioArray.Executar();
-                    await Task.Delay(10000);
+                    await Task.Delay(2000);
                     break;
                 case "2":
-                    ColecaoList.Executar();
+                    // ColecaoList.Executar();
+                    // ListaFilme.Executar();
+                    // ColecaoArrayList.Executar();
+                    // Set.Executar();
+                    // ColecoesQueueFila.Executar();
+                    // Desafio.Executar();
+                    // Equalidade.Executar();
+                    // ColecaoStack.Executar();
+                    ColecaoDictionary.Executar();
 
-                    await Task.Delay(10000);
+
+                    await Task.Delay(2000);
                     break;
                 case "3":
                     Matriz.Executar();
-                    await Task.Delay(10000);
+                    await Task.Delay(2000);
 
                     break;    
 

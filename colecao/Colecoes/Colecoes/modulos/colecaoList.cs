@@ -69,8 +69,84 @@ namespace Colecao.Modulos
 
 
 
+
+
         }
 
+    }
+
+
+
+    class ListaFilme
+    {
+        public string Nome { get; set; }
+        public int Valor { get; set; }
+
+        public ListaFilme(string nome, int valor)
+        {
+            Nome = nome;
+            Valor = valor;
+        }
+        public static void Executar()
+        {
+            var Livro = new ListaFilme("Marvel", 29);
+            var nome = new List<ListaFilme>();
+            nome.Add(Livro);
+            var combo = new List<ListaFilme>{
+                new ListaFilme("Avengers", 20),
+                new ListaFilme("Capitao America", 15),
+                new ListaFilme("Guerra Infinita",10)
+
+
+            };
+            nome.AddRange(combo);
+            System.Console.WriteLine("Os nomes dos filmes sao: ");
+
+            foreach (var nomes in combo)
+            {
+                System.Console.WriteLine($"{nomes.Nome}, valor: {nomes.Valor}");
+            }
+
+
+            List<string> filmes = new List<string>();
+
+            filmes.Add("Avengers");
+            filmes.Add("GUERA");
+            System.Console.WriteLine("1- Adicione o Filme:");
+            System.Console.WriteLine("2- Remover Filme:");
+            System.Console.WriteLine("Voce seleciono: ");
+            var escolha = Console.ReadLine();
+            
+
+
+            switch (escolha)
+            {
+                case "1":
+
+                    filmes.Add(Console.ReadLine());
+                    foreach (var filme in filmes)
+                    {
+                        System.Console.WriteLine($"Agora os filmes sao: {filme}");
+                    }
+
+
+                    break;
+                case "2":
+                    filmes.Remove(Console.ReadLine());
+                    foreach (var filme in filmes)
+                    {
+                        System.Console.WriteLine($"Agora os filmes sao: {filme}");
+                    }
+
+                    break;
+
+
+
+            }
+
+
+
+        }
     }
 }
 
