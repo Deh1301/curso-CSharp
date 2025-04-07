@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/andr/Novo volume/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj": {}
+    "/home/andr/Documentos/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj": {}
   },
   "projects": {
-    "/media/andr/Novo volume/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj": {
+    "/home/andr/Documentos/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/andr/Novo volume/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj",
+        "projectUniqueName": "/home/andr/Documentos/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj",
         "projectName": "orientacaoObjeto",
-        "projectPath": "/media/andr/Novo volume/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj",
+        "projectPath": "/home/andr/Documentos/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/orientacaoObjeto.csproj",
         "packagesPath": "/home/andr/.nuget/packages/",
-        "outputPath": "/media/andr/Novo volume/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/obj/",
+        "outputPath": "/home/andr/Documentos/documentos do curso/curso c#/curso-CSharp/orientacaoObjeto/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andr/.nuget/NuGet/NuGet.Config"
